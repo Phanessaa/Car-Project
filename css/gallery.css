@@ -93,9 +93,18 @@
             71.4% {background-image: url("../images/car5.jpg");}
             85.7% {background-image: url("../images/car6.jpg");}
             100%  {background-image: url("../images/car7.jpg");}
-    
           } 
-        html{
+
+          .slideshow {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+            animation-name: slideshow;
+            animation-duration: 4s;
+          }
+
+          html{
             background-color: rgb(48, 23, 7);
         }
         .a{
