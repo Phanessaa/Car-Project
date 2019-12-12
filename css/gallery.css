@@ -96,12 +96,13 @@
           } 
 
           .slideshow {
-            width: 100px;
-            height: 100px;
+            width: 701px;
+            height: 294px;
             position: relative;
+            left: 475px;
             animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
             animation-name: slideshow;
-            animation-duration: 4s;
+            animation-duration: 20s;
           }
 
           html{
