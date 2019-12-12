@@ -25,7 +25,7 @@
         border: rgb(196, 96, 15) 1px solid;
             color: white;
             display: inline-block;
-            font-size: 37px;
+            font-size: 43px;
             margin: 0;
             padding-bottom: 2%;
           padding-left:0;
@@ -74,14 +74,14 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     html{
-        background-color: blueviolet;
+        background-color: rgb(48, 23, 7);
     }
     .a{
         text-decoration: none;
             color: black;
             display: inline-flex;
             justify-content: center;
-            font-size: 26px;
+            font-size: 22px;
             list-style-type: none;
             margin: 0;
         
@@ -97,27 +97,30 @@
         text-decoration: none;
             color: white;
             display: inline-block;
-            font-size: 65px;
+            font-size: 75px;
             margin: 0;
           padding-left:0;
           overflow: hidden;
           background-color: rgb(7, 95, 76);
           width: 100%;
-          font-family: font1;
+          font-family: "font1";
           text-align: center;
     
     }
     
     .c{
-        padding-left: 4%;
-        padding-right: 4%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 2%;
+        width: 120px;
+        height: 70px;
     }
     
     p{
         text-align: center;
     }
     :hover > a{
-        color:white;
+        color:rgb(196, 96, 15);
         display: block;
         background-color: rgb(3, 65, 51);
     }
@@ -143,7 +146,73 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  
     html{
-        background-color: burlywood;
+        background-color: rgb(48, 23, 7);
     }
+    .a{
+        text-decoration: none;
+            color: black;
+            display: inline-flex;
+            justify-content: center;
+            font-size: 28px;
+            list-style-type: none;
+            margin: 0;
+        
+            
+          padding-left: 0;
+          overflow: hidden;
+          background-color: rgb(7, 95, 76);
+          width: 100%;
+          text-align: center;
+       
+    }
+    .b{
+        text-decoration: none;
+            color: white;
+            display: inline-block;
+            font-size: 125px;
+            margin: 0;
+          padding-bottom: 2%;
+          overflow: hidden;
+          background-color: rgb(7, 95, 76);
+          width: 100%;
+          font-family: "font1";
+          text-align: center;
+    
+    }
+    
+    .c{
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 210px;
+        height: 120px;
+    }
+    
+    p{
+        text-align: center;
+    }
+    :hover > a{
+        color:rgb(196, 96, 15);
+        display: block;
+        background-color: rgb(3, 65, 51);
+    }
+    
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+       
+        text-decoration: none;
+        font-family: 'font1';}
+        nav a{
+            text-align: center;
+        }
+    
+        @font-face {
+            font-family:'font1';
+            src: url(../fonts/libel.ttf);
+          }
 }
