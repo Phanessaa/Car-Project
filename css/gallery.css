@@ -17,10 +17,10 @@
 }
 .b{
     text-decoration: none;
-        color: white;
-        display: inline-block;
-        font-size: 65px;
-        margin: 0;
+      color: white;
+      display: inline-block;
+      font-size: 65px;
+      margin: 0;
       padding-left:0;
       overflow: hidden;
       background-color: rgb(7, 95, 76);
@@ -66,20 +66,24 @@ p{
 
 
       .slideshow {
-        width: 800px;
-        height: 500px;
+        width: 701px;
+        height: 294px;
         position: absolute;
         top: 200px;
-        left: 500px;
+        left: 430px;
         animation-name: slideshow;
-        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-duration: 20s;
       }
       
       /* Safari 4.0 - 8.0 */
-      @-webkit-keyframes slideshow {
-        0%   {background-image: url("../images/1972-Ford-Gran-Torino-V5-1080.jpg");}
-        25%  {background-image: url("../images/car1.jpg");}
-        50%  {background-image: url("../images/car2.jpg");}
-        75%  {background-image: url("../images/car3.jpg");}
-        100% {background-image: url("../images/");}
+      @keyframes slideshow {
+        0%    {background-image: url("../images/car1.jpg");}
+        28.5% {background-image: url("../images/car2.jpg");}
+        42.8% {background-image: url("../images/car3.jpeg");}
+        57.1% {background-image: url("../images/car4.jpg");}
+        71.4% {background-image: url("../images/car5.jpg");}
+        85.7% {background-image: url("../images/car6.jpg");}
+        100%  {background-image: url("../images/car7.jpg");}
+
       } 
