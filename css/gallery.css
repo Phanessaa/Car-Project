@@ -12,6 +12,14 @@
         100%  {background-image: url("../images/car7.jpg");}
 
       } 
+      .slideshow {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+        animation-name: slideshow;
+        animation-duration: 4s;
+      }
         html{
             background-color: rgb(48, 23, 7);
         }
@@ -189,6 +197,15 @@
             100%  {background-image: url("../images/car7.jpg");}
     
           } 
+          .slideshow {
+            width: 3000px;
+            height: 1500px;
+            position: relative;
+            background-repeat: no-repeat;
+            animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+            animation-name: slideshow;
+            animation-duration: 4s;
+          }
         html{
             background-color: rgb(48, 23, 7);
         }

@@ -3,6 +3,7 @@
 @media only screen and (min-width: 600px) {
     html{
         background-color: rgb(48, 23, 7);
+       
     }
     .a{
         text-decoration: none;
@@ -43,7 +44,10 @@
         padding-top: 1%;
         text-align: center;
     }
-    
+    .d{
+        text-align: center;
+        border: rgb(196, 96, 15) 1px solid;
+    }
     p{
         text-align: center;
     }
