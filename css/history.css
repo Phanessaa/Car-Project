@@ -143,6 +143,17 @@
                 src: url(../fonts/libel.ttf);
               }
     }
+
+    .desc1 {
+        height: 200px;
+        width: 300px;
+        top: 50px;
+        background-color: rgb(7, 95, 76);
+        padding: 20px;
+        padding-right: 120px;
+        position: relative;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
     
     /* Large devices (laptops/desktops, 992px and up) */
     @media only screen and (min-width: 992px) {
