@@ -18,7 +18,7 @@
         position: relative;
         animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
         animation-name: slideshow;
-        animation-duration: 4s;
+        animation-duration: 10s;
       }
         html{
             background-color: rgb(48, 23, 7);
@@ -110,7 +110,7 @@
             left: 475px;
             animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
             animation-name: slideshow;
-            animation-duration: 20s;
+            animation-duration: 10s;
           }
 
           html{
@@ -204,7 +204,7 @@
             background-repeat: no-repeat;
             animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
             animation-name: slideshow;
-            animation-duration: 4s;
+            animation-duration: 10s;
           }
         html{
             background-color: rgb(48, 23, 7);

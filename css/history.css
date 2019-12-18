@@ -145,14 +145,18 @@
     }
 
     .desc1 {
-        height: 200px;
-        width: 300px;
+        height: 210px;
+        width: 400px;
         top: 50px;
         background-color: rgb(7, 95, 76);
         padding: 20px;
-        padding-right: 120px;
+        padding-right: 250px;
         position: relative;
+        float: right;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: 3px rgb(196, 96, 15) solid;
+        font-size: 18px;
+        color: white;
     }
     
     /* Large devices (laptops/desktops, 992px and up) */
