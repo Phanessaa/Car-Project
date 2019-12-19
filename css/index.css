@@ -2,7 +2,10 @@
       /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     html{
-        background-color: rgb(48, 23, 7);
+        background-image: url(../images/tricky.jpg);
+        background-repeat: repeat;
+
+}
        
     }
     .a{
@@ -44,10 +47,7 @@
         padding-top: 1%;
         text-align: center;
     }
-    .d{
-        text-align: center;
-        border: rgb(196, 96, 15) 1px solid;
-    }
+   
    
     :hover > a{
         color:rgb(196, 96, 15);
@@ -74,7 +74,6 @@
           .v{
             font-family: 'font1';
             color: antiquewhite;
-            background-color:rgb(41, 22, 11) ;
             font-size: small;
             text-align: center;
             padding: 6%;
@@ -228,22 +227,22 @@
             list-style-type: none;
             margin: 0;
         
-            border: rgb(196, 96, 15) 3px solid;
+            border: rgb(9, 109, 96) 3px solid;
           padding-left: 0;
           overflow: hidden;
-          background-color: rgb(7, 95, 76);
+          background: radial-gradient(rgb(70, 165, 109), rgb(22, 100, 54), rgb(7, 95, 76));
           width: 100%;
           text-align: center;
        
     }
     .d{
         text-align: center;
-        border: rgb(196, 96, 15) 3px solid;
+        border: rgb(9, 109, 96) 3px solid;
         width: 1260.4px;
         height: 530px;
     }
     .b{
-        border: rgb(196, 96, 15) 3px solid;
+        border: rgb(9, 109, 96) 3px solid;
         text-decoration: none;
         color: antiquewhite;
             display: inline-block;
@@ -265,11 +264,16 @@
         height: 120px;
     }
     
-   
+   .d{
+       float: left;
+       word-wrap: normal;
+       width: 550px;
+       height: 300px;
+   }
     :hover > a{
-        color:rgb(212, 157, 111);
+        color: white;
         display: block;
-        background-color: rgb(3, 65, 51);
+        background-color: rgb(9, 109, 96);
     }
     
       
@@ -293,19 +297,22 @@
           .v{
               font-family: 'font1';
               color: antiquewhite;
-              background-color:rgb(41, 22, 11) ;
+              background-color: rgb(75, 44, 8);
+              border: rgb(9, 109, 96) 3px solid;
               font-size: xx-large;
               text-align: center;
               padding: 4%;
+              text-align: right;
+              float: right;
              ;
           }
           @keyframes slideshow {
-            0%    {background-image: url("../images/green3.jpg " ) }
-            16.7% {background-image: url("../images/green4.jpg") }
-            33.4% {background-image: url("../images/green5.jpeg") }
-            50% {background-image: url("../images/green1.jpg")  }
-            66.7% {background-image: url("../images/green2.jpg")  }
-            100%{background-image: url("../images/green3.jpg")  }
+            0%    {background-image: url("../images/car1.jpg " ) }
+            16.7% {background-image: url("../images/car2.jpg") }
+            33.4% {background-image: url("../images/car3.jpeg") }
+            50% {background-image: url("../images/car4.jpg")  }
+            66.7% {background-image: url("../images/car5.jpg")  }
+            100%{background-image: url("../images/car.jpg")  }
         
     
           } 
@@ -315,8 +322,9 @@
         height: 530px;
             position: relative;
             background-repeat: no-repeat;
+            animation: infinite;
             animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
             animation-name: slideshow;
-            animation-duration: 10s;
+            animation-duration: 10s ;
           }
 }
