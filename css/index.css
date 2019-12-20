@@ -4,140 +4,167 @@
     html{
         background-image: url(../images/tricky.jpg);
         background-repeat: repeat;
+        
+        padding-left: 6%;
+        padding-right: 6%;
 
 }
-       
-    }
-    .a{
-        text-decoration: none;
-            color: black;
-            display: inline-flex;
-            justify-content: center;
-            font-size: 18px;
-            list-style-type: none;
-            margin: 0;            
-          padding: 0;
-          border: rgb(196, 96, 15) 1px solid;
-          overflow: hidden;
-          background-color: rgb(31, 121, 101);
-          width: 100%;
-          text-align: center;
-       
-    }
-    .b{
-        text-decoration: none;
-        border: rgb(196, 96, 15) 1px solid;
-            color: white;
-            display: inline-block;
-            font-size: 43px;
-            margin: 0;
-            padding-bottom: 2%;
-          padding-left:0;
-          overflow: hidden;
-          background-color: rgb(31, 121, 101);
-          width: 100%;
-          font-family: "font1";
-          text-align: center;
-    
-    }
-    
-    .c{
-        padding-left: 3%;
-        padding-right: 3%;
-        padding-top: 1%;
-        text-align: center;
-    }
+
+.a{
+    text-decoration: none;
+        color: black;
+        display: inline-flex;
+        justify-content: center;
+        font-size: 18px;
+        list-style-type: none;
+        margin: 0;
+        border: rgb(9, 109, 96) 2px solid;
+      padding-left: 0;
+      overflow: hidden;
+      background: radial-gradient(rgb(70, 165, 109), rgb(22, 100, 54), rgb(7, 95, 76));
+      width: 100%;
+      text-align: center;
    
+}
+
+
+.b{
+    border: rgb(9, 109, 96) 2px solid;
+    text-decoration: none;
+    color: antiquewhite;
+        display: inline-block;
+        font-size: 80px;
+        margin: 0;
+      padding-bottom: 2%;
+      overflow: hidden;
+      background-color: rgb(7, 95, 76);
+      width: 100%;
+      font-family: "font1";
+      text-align: center;
+
+}
+
+
+.c{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    width: 100px;
+    height: 70px;
+}
+
+.d{
+   float: left;
+   word-wrap: break-word;
+   width: 200px;
+   height: 150px;
+   border: rgb(9, 109, 96) 2px solid;
+}
+.e{
+float: left;
+word-wrap: normal;
+width: 200px;
+height: 170px;
+border: rgb(9, 109, 96) 2px solid;
+}
+:hover > a{
+    color: white;
+    display: block;
+    background-color: rgb(9, 109, 96);
+}
+
+  
+  li a {
+    display: block;
+
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px;
    
-    :hover > a{
-        color:rgb(196, 96, 15);
-        display: block;
-        background-color: rgb(3, 65, 51);
-    }
-    
-      
-      li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 16px;
-        text-decoration: none;
-        font-family: 'font1';}
+    text-decoration: none;
+    font-family: 'font1';}
+
+
         nav a{
             text-align: center;
         }
+
+    @font-face {
+        font-family:'font1';
+        src: url(../fonts/libel.ttf);
+      }
+      .v{
+          font-family: 'font1';
+          color: antiquewhite;
+          background-color: rgb(75, 44, 8);
+          border: rgb(9, 109, 96) 2px solid;
+          font-size: 17px;
+          text-align: center;
+          padding: 7%;
+          text-align: center;
+          float: right;
+         ;
+      }
     
-        @font-face {
-            font-family:'font1';
-            src: url(../fonts/libel.ttf);
-          }
-          .v{
-            font-family: 'font1';
-            color: antiquewhite;
-            font-size: small;
-            text-align: center;
-            padding: 6%;
-           ;
-        }
-        @keyframes slideshow {
-            0%    {background-image: url("../images/green3.jpg" ) }
-            16.7% {background-image: url("../images/green4.jpg") }
-            33.4% {background-image: url("../images/green5.jpeg") }
-            50% {background-image: url("../images/green1.jpg")  }
-            66.7% {background-image: url("../images/green2.jpg")  }
-            100%{background-image: url("../images/green3.jpg")  }
-        
+      @keyframes slideshow {
+        0%    {background-image: url("../images/car1.jpg " ) }
+        16.7% {background-image: url("../images/car2.jpg") }
+        33.4% {background-image: url("../images/car3.jpg") }
+        50% {background-image: url("../images/car4.jpg")  }
+        66.7% {background-image: url("../images/car5.jpg")  }
+        100%{background-image: url("../images/car6.jpg")  }
     
-          } 
-          .slideshow {
-            background-size: 1260.4px 530px;
-            width: 1260.4px;
-        height: 530px;
-            position: relative;
-            background-repeat: no-repeat;
-            animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
-            animation-name: slideshow;
-            animation-duration: 10s;
-          }
+
+      } 
+      .slideshow {
+          background-size: 522.6px 210px;
+        width: 522.6px;
+    height: 210px;
+        position: relative;
+        background-repeat: no-repeat;
+        animation: infinite;
+        animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+        animation-name: slideshow;
+        animation-duration: 10s ;
+      }
+    
+     
+   
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     html{
-        background-color: rgb(48, 23, 7);
+    
+        padding-left: 6%;
+        padding-right: 6%;
     }
     .a{
         text-decoration: none;
             color: black;
             display: inline-flex;
             justify-content: center;
-            font-size: 22px;
+            font-size: 25px;
             list-style-type: none;
             margin: 0;
-            border: rgb(196, 96, 15) 2px solid;
-            
+            border: rgb(9, 109, 96) 3px solid;
           padding-left: 0;
           overflow: hidden;
-          background-color: rgb(7, 95, 76);
+          background: radial-gradient(rgb(70, 165, 109), rgb(22, 100, 54), rgb(7, 95, 76));
           width: 100%;
           text-align: center;
        
     }
-    .d{
-        text-align: center;
-        border: rgb(196, 96, 15) 2px solid;
-        width: 852px;
-        height: 320px;
-     
-    }
+ 
+  
     .b{
-        border: rgb(196, 96, 15) 2px solid;
+        border: rgb(9, 109, 96) 3px solid;
         text-decoration: none;
-            color: white;
+        color: antiquewhite;
             display: inline-block;
-            font-size: 75px;
+            font-size: 80px;
             margin: 0;
-          padding-left:0;
+          padding-bottom: 2%;
           overflow: hidden;
           background-color: rgb(7, 95, 76);
           width: 100%;
@@ -146,6 +173,7 @@
     
     }
     
+   
     .c{
         padding-left: 2%;
         padding-right: 2%;
@@ -154,59 +182,83 @@
         height: 70px;
     }
     
-   
+   .d{
+       float: left;
+       word-wrap: break-word;
+       width: 300px;
+       height: 220px;
+       border: rgb(9, 109, 96) 3px solid;
+   }
+   .e{
+    float: left;
+    word-wrap: normal;
+    width: 300px;
+    height: 220px;
+    border: rgb(9, 109, 96) 3px solid;
+}
     :hover > a{
-        color:rgb(196, 96, 15);
+        color: white;
         display: block;
-        background-color: rgb(3, 65, 51);
+        background-color: rgb(9, 109, 96);
     }
     
       
       li a {
         display: block;
-        color: white;
+
+        color: antiquewhite;
         text-align: center;
         padding: 16px;
        
         text-decoration: none;
         font-family: 'font1';}
-        nav a{
-            text-align: center;
-        }
-    
+
+
+            nav a{
+                text-align: center;
+            }
+
         @font-face {
             font-family:'font1';
             src: url(../fonts/libel.ttf);
           }
           .v{
-            font-family: 'font1';
-            color: antiquewhite;
-            background-color:rgb(41, 22, 11) ;
-            font-size: large;
-            text-align: center;
-            padding: 5%;
-           ;
-        }
-        @keyframes slideshow {
-            0%    {background-image: url("../images/green3.jpg" ) }
-            16.7% {background-image: url("../images/green4.jpg") }
-            33.4% {background-image: url("../images/green5.jpeg") }
-            50% {background-image: url("../images/green1.jpg")  }
-            66.7% {background-image: url("../images/green2.jpg")  }
-            100%{background-image: url("../images/green3.jpg")  }
+              font-family: 'font1';
+              color: antiquewhite;
+              background-color: rgb(75, 44, 8);
+              border: rgb(9, 109, 96) 3px solid;
+              font-size: 25px;
+              text-align: center;
+              padding: 4%;
+              text-align: center;
+              float: right;
+             ;
+          }
+        
+          @keyframes slideshow {
+            0%    {background-image: url("../images/car1.jpg " ) }
+            16.7% {background-image: url("../images/car2.jpg") }
+            33.4% {background-image: url("../images/car3.jpg") }
+            50% {background-image: url("../images/car4.jpg")  }
+            66.7% {background-image: url("../images/car5.jpg")  }
+            100%{background-image: url("../images/car6.jpg")  }
         
     
           } 
           .slideshow {
-            background-size: 852px 320px;
-            width: 852px;
-            height: 320px;
+              background-size: 752.6px 300px;
+            width: 752.6px;
+        height: 300px;
             position: relative;
             background-repeat: no-repeat;
+            animation: infinite;
             animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
             animation-name: slideshow;
-            animation-duration: 10s;
+            animation-duration: 10s ;
           }
+        
+         
+       
 }
 
 
@@ -214,7 +266,7 @@
 @media only screen and (min-width: 992px) {
   
     html{
-        background-color: rgb(48, 23, 7);
+      
         padding-left: 8%;
         padding-right: 8%;
     }
